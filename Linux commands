@@ -1,0 +1,42 @@
+YUM INSTALLER-
+      yum install httpd --- install package
+      yum list installed httpd --- to check the installed packages 
+      yum deplist httpd --- to check the dependencies 
+      yum remove httpd --- used to remove the installed package
+      yum autoremove httpd --- this removes package and all the dependencies too
+      which httpd -- this is used to locate where the packages are installed in the system
+      yum list installed httpd ---  to check the installed packages  
+     yum repolist -- to check the online repos from where yum fetches the data
+     cd /etc/yum.repos.d/ --- location for yum.repos.d
+      yum clean all --- used for cleaning the update
+     yum update --- To update the system
+
+RPM PACKAGE INSTALLER
+   rpm -ivh jre-8u151-linux-x64.rpm --- used to install package ( v = verbose, h- progressbar
+   which java -- location 
+   rpm -q jre1.8 --- query, gives more information 
+   rpm -qi jre1.8 ---info,  give more detail 
+   rpm -ql jre1.8 ---- packages that this installed 
+   rpm -qd jre1.8 --- the documentation comes with
+   rpm -qR jre1.8 ---- required dependencies
+   rpm -qpR jre1.8 --- check before you install it 
+   rpm -Uvh jre1.8 --- update
+   rpm -e jre1.8 -- erase
+
+APT-PACKAGE-MANAGEMENT
+apt update --- updates the cache 
+sudo apt update --- updates too
+apt-cache search vlc --- searched whether the package is already available or not
+ sudo apt install vlc --- installing 
+sudo apt remove vlc --- removing the package
+sudo apt remove --purge vlc --- completely removing
+sudo apt autoremove vlc --- completely removal with dependencies 
+sudo apt full-upgrade --- upgrade
+
+DPKG PACKAGE MANAGEMENT-
+dpkg --get-selections <package> --- checking the package
+dpkg --get-selections | grep chrome --- searching 
+dpkg-deb -I chrome.deb --- gather some information about the package 
+dpkg-deb --contents chrome.deb --- provides the content of that package
+dpkg -i chrome.deb --- install package 
+dpkg -r chrome.deb --- remove package 
