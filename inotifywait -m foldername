@@ -1,0 +1,4 @@
+./testt/ OPEN,ISDIR 
+./testt/ ACCESS,ISDIR 
+./testt/ ACCESS,ISDIR 
+./testt/ CLOSE_NOWRITE,CLOSE,ISDIR 

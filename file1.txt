@@ -1,0 +1,14 @@
+total 36
+drwxrwxr-x 3 ec2-user ec2-user  207 Aug 26 15:13 .
+drwx------ 5 ec2-user ec2-user  231 Aug 26 15:13 ..
+-rwxrwxr-x 1 ec2-user ec2-user  125 Aug 22 20:45 and.sh
+-rw-rw-r-- 1 ec2-user ec2-user    0 Aug 26 15:13 file1.txt
+-rwxrwxr-x 1 ec2-user ec2-user  149 Aug 22 20:40 first.sh
+-rwxrwxr-x 1 ec2-user ec2-user  152 Aug 26 14:32 for.sh
+drwxrwxr-x 8 ec2-user ec2-user  185 Aug 26 14:16 .git
+-rw-rw-r-- 1 ec2-user ec2-user 1977 Aug 22 20:19 Linux commands
+-rwxrwxr-x 1 ec2-user ec2-user   35 Aug 26 15:13 out.sh
+-rw-rw-r-- 1 ec2-user ec2-user   15 Aug 22 20:19 README.md
+-rwxrwxr-x 1 ec2-user ec2-user   78 Aug 26 15:03 script_input.sh
+-rwxrwxr-x 1 ec2-user ec2-user  100 Aug 26 14:59 write_index.sh
+-rw-rw-r-- 1 ec2-user ec2-user    1 Aug 22 20:19 YUM package management
